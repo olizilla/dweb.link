@@ -2,15 +2,16 @@ import { Logo } from './logo'
 
 function registerProtocol () {
   console.log('registerProtocol')
+  
   navigator.registerProtocolHandler(
     'ipfs',
-    `${window.location}?url=%s`,
+    `${window.location.origin}/ipfs/?uri=%s`,
     'IPFS'
   );
 }
 
 function unregisterProtocol () {
-  navigator.unregisterProtocolHandler('ipfs', `${window.location}?url=%s`)
+  navigator.unregisterProtocolHandler('ipfs', `${window.location.origin}/ipfs/?uri=%s`)
 }
 
 export function App(props) {
