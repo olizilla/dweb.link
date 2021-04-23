@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>will it register?</title>
+  <script>
+// https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler
+function registerProtocolHandler (scheme = 'ipfs', url = '?uri=%s', title) {
+  const handlerUrl = getProtocolHandlerUrl()
+  console.log('registerProtocolHandler', scheme, url)
+  navigator.registerProtocolHandler(scheme, url, title)
+}
+  </script>  
+</head>
+</html>
