@@ -91,7 +91,7 @@ export function App (props) {
 
         <div class='pt5'>
           <h2 class='fw4 f3 tc lh-copy'>
-            <a class='blue link fw4' href='https://ipfs.io'>IPFS</a> let's us host files we care about, <a class='underline link black' href='https://docs.ipfs.io/concepts/what-is-ipfs/'><em class='fs-normal'>together</em></a>.
+            <a class='blue link fw4' href='https://ipfs.io'>IPFS</a> lets us host files we care about, <a class='underline link black' href='https://docs.ipfs.io/concepts/what-is-ipfs/'><em class='fs-normal'>together</em></a>.
           </h2>
           <div class='tc f2'>
             🔗<br />
@@ -108,12 +108,12 @@ export function App (props) {
             <code class='fw6 blue'>ipfs://</code>bafkreigh2akiscaildcqabsyg3dfr6chu3fgpregiymsck7e7aqa4s52zy
           </a>
           <p class='fw4 f5 tc'>
-            It's <code class='fw6 blue'>ipfs://</code> then the signature of the file, called it's <a class='link blue' href='https://docs.ipfs.io/concepts/content-addressing/'>Content ID</a> ✨🔗.
+            It's <code class='fw6 blue'>ipfs://</code> then the signature of the file, called its <a class='link blue' href='https://docs.ipfs.io/concepts/content-addressing/'>Content ID</a> ✨🔗.
           </p>
         </div>
 
         <div class='fw4 f3 tc lh-copy pt5'>
-          <p>An IPFS link let you fetch the file from anyone who has it</p>
+          <p>An IPFS link lets you fetch the file from anyone who has it</p>
           <div class='f1'>
             💾 🤝 ✨
           </div>
