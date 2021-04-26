@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>postmessage echo</title>
+  <script>
+    var targetWindow = window.parent
+    var targetOrigin = '*'
+    var message = window.location.hash ? window.location.hash.substring(1) : 'echo'
+    targetWindow.postMessage(message, targetOrigin)
+  </script>  
+</head>
+</html>

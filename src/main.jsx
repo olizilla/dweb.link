@@ -4,5 +4,3 @@ import 'tachyons'
 import './index.css'
 
 render(<App />, document.getElementById('app'))
-
-
